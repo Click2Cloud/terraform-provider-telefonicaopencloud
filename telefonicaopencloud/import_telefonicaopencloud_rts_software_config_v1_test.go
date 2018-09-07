@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform/helper/resource"
 )
 
-func TestAccOTCRtsSoftwareConfigV1_importBasic(t *testing.T) {
+func TestAccRtsSoftwareConfigV1_importBasic(t *testing.T) {
 	resourceName := "telefonicaopencloud_rts_software_config_v1.config_1"
 
 	resource.Test(t, resource.TestCase{
