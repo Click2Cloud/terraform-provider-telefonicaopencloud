@@ -2506,10 +2506,10 @@
 			"revisionTime": "2018-03-15T11:09:47Z"
 		},
 		{
-			"checksumSHA1": "XcAPonx64IMpPDqjCsXwh4ZKQTs=",
+			"checksumSHA1": "+JRQECD1oxmwOI7NLLfPH3RvL7E=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/sfs/v2/shares",
-			"revision": "5c3196aed52595dc7e624278e8a0e4e8aee3cc0b",
-			"revisionTime": "2018-09-03T07:18:55Z"
+			"revision": "1ef4c250ce2ea6c28095385c1800ac8a74492ca9",
+			"revisionTime": "2018-09-05T09:58:59Z"
 		},
 		{
 			"checksumSHA1": "RV9GKwWK04J4e9L2kbfZnyO+0+U=",
