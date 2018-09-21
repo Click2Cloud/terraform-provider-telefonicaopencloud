@@ -2374,16 +2374,22 @@
 			"revisionTime": "2016-07-20T23:31:40Z"
 		},
 		{
-			"checksumSHA1": "bxyNTlhb+f8yYAyCqB7B5eNGUAE=",
+			"checksumSHA1": "2f5ynPhSwFv1gpKuopzKSk+N6WA=",
 			"path": "github.com/huaweicloud/golangsdk",
-			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
-			"revisionTime": "2018-03-15T11:09:47Z"
+			"revision": "bc667b4964d9381ae75ac2c2c99e64b161cfb46b",
+			"revisionTime": "2018-09-18T15:16:54Z"
 		},
 		{
-			"checksumSHA1": "LnXFUbRo/OFKQ5BIYadLB5Z9B3s=",
+			"checksumSHA1": "iREB1NIZ0PY9qJJFsZAL8I31AEI=",
+			"path": "github.com/huaweicloud/golangsdk/internal",
+			"revision": "bc667b4964d9381ae75ac2c2c99e64b161cfb46b",
+			"revisionTime": "2018-09-18T15:16:54Z"
+		},
+		{
+			"checksumSHA1": "dBSYaaBC8YON15wgTCW0jb0rO0I=",
 			"path": "github.com/huaweicloud/golangsdk/openstack",
-			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
-			"revisionTime": "2018-03-15T11:09:47Z"
+			"revision": "bc667b4964d9381ae75ac2c2c99e64b161cfb46b",
+			"revisionTime": "2018-09-18T15:16:54Z"
 		},
 		{
 			"checksumSHA1": "YsbxI+HIiezQExsnzH+GBc37qfY=",
@@ -2438,6 +2444,24 @@
 			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v2/tokens",
 			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
 			"revisionTime": "2018-03-15T11:09:47Z"
+		},
+		{
+			"checksumSHA1": "AH32ytFyBn4Y+cJetSKnNnDrzWM=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/endpoints",
+			"revision": "bc667b4964d9381ae75ac2c2c99e64b161cfb46b",
+			"revisionTime": "2018-09-18T15:16:54Z"
+		},
+		{
+			"checksumSHA1": "IDShPoHmqvpSi7Y8cO8uwyrodZI=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/projects",
+			"revision": "bc667b4964d9381ae75ac2c2c99e64b161cfb46b",
+			"revisionTime": "2018-09-18T15:16:54Z"
+		},
+		{
+			"checksumSHA1": "q/3VudaXI7vBmPIHekL85m9jxUE=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/identity/v3/services",
+			"revision": "bc667b4964d9381ae75ac2c2c99e64b161cfb46b",
+			"revisionTime": "2018-09-18T15:16:54Z"
 		},
 		{
 			"checksumSHA1": "ObTpLoXtNExYOWxC76a/MUrCdQU=",
@@ -2600,6 +2624,18 @@
 			"path": "github.com/huaweicloud/golangsdk/openstack/utils",
 			"revision": "b30e33595f46378156035bfec5b52b350c4b2b72",
 			"revisionTime": "2018-03-15T11:09:47Z"
+		},
+		{
+			"checksumSHA1": "7xZpRon0BdX3smmIQeTi2DUfeC0=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/vbs/v2/backups",
+			"revision": "bc667b4964d9381ae75ac2c2c99e64b161cfb46b",
+			"revisionTime": "2018-09-18T15:16:54Z"
+		},
+		{
+			"checksumSHA1": "0ja94F7LBVXcdh0pKQm9lNr1E+w=",
+			"path": "github.com/huaweicloud/golangsdk/openstack/vbs/v2/policies",
+			"revision": "bc667b4964d9381ae75ac2c2c99e64b161cfb46b",
+			"revisionTime": "2018-09-18T15:16:54Z"
 		},
 		{
 			"checksumSHA1": "unuouwL0EzTLflKCDFkwzrJ81d4=",
