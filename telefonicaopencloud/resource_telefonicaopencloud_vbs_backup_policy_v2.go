@@ -155,30 +155,27 @@ func resourceVBSBackupPolicyV2Update(d *schema.ResourceData, meta interface{}) e
 	}
 	var updateOpts policies.UpdateOpts
 
-	if d.HasChange("name") || d.HasChange("start_time") || d.HasChange("frequency") ||
-		d.HasChange("rentention_num") || d.HasChange("retain_first_backup") || d.HasChange("status") {
-		if d.HasChange("name") {
-			updateOpts.Name = d.Get("name").(string)
-		}
-		if d.HasChange("start_time") {
-			updateOpts.ScheduledPolicy.StartTime = d.Get("start_time").(string)
-		}
-		if d.HasChange("frequency") {
-			updateOpts.ScheduledPolicy.Frequency = d.Get("frequency").(int)
-		}
-		if d.HasChange("rentention_num") {
-			updateOpts.ScheduledPolicy.RententionNum = d.Get("rentention_num").(int)
-		}
-		if d.HasChange("retain_first_backup") {
-			updateOpts.ScheduledPolicy.RemainFirstBackup = d.Get("retain_first_backup").(string)
-		}
-		if d.HasChange("status") {
-			updateOpts.ScheduledPolicy.Status = d.Get("status").(string)
-		}
-		_, err = policies.Update(vbsClient, d.Id(), updateOpts).Extract()
-		if err != nil {
-			return fmt.Errorf("Error updating Telefonicaopencloud backup policy: %s", err)
-		}
+	if d.HasChange("name") {
+		updateOpts.Name = d.Get("name").(string)
+	}
+	if d.HasChange("start_time") {
+		updateOpts.ScheduledPolicy.StartTime = d.Get("start_time").(string)
+	}
+	if d.HasChange("frequency") {
+		updateOpts.ScheduledPolicy.Frequency = d.Get("frequency").(int)
+	}
+	if d.HasChange("rentention_num") {
+		updateOpts.ScheduledPolicy.RententionNum = d.Get("rentention_num").(int)
+	}
+	if d.HasChange("retain_first_backup") {
+		updateOpts.ScheduledPolicy.RemainFirstBackup = d.Get("retain_first_backup").(string)
+	}
+	if d.HasChange("status") {
+		updateOpts.ScheduledPolicy.Status = d.Get("status").(string)
+	}
+	_, err = policies.Update(vbsClient, d.Id(), updateOpts).Extract()
+	if err != nil {
+		return fmt.Errorf("Error updating Telefonicaopencloud backup policy: %s", err)
 	}
 
 	return resourceVBSBackupPolicyV2Read(d, meta)
