@@ -54,3 +54,4 @@ The following attributes are exported:
 
 * `frequency` - Specifies the backup interval. The value is in the range of 1 to 14 days.
  
+* `policy_resource_count` - Specifies the number of volumes associated with the backup policy.

@@ -35,9 +35,9 @@ The following arguments are supported:
 
 * `retain_first_backup` (Required) - Specifies whether to retain the first backup in the current month. Possible values are Y or N. 
 
-* `rentention_num` (Optional) - Specifies number of retained backups. Minimum value is 2.
+* `rentention_num` (Required) - Specifies number of retained backups. Minimum value is 2.
 
-* `frequency` (Optional) - Specifies the backup interval. The value is in the range of 1 to 14 days.
+* `frequency` (Required) - Specifies the backup interval. The value is in the range of 1 to 14 days.
 
 # Attributes Reference
 
