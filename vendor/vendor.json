@@ -2410,10 +2410,10 @@
 			"revisionTime": "2018-03-15T11:09:47Z"
 		},
 		{
-			"checksumSHA1": "Xucq+Ue/IefP4qrReitCN5F3rRg=",
+			"checksumSHA1": "u9yB68Ng1RAaedOTBtHe6gRZB64=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/blockstorage/v2/volumes",
-			"revision": "f08a3288280dde5efc7e934854f4f920c99a8534",
-			"revisionTime": "2018-09-17T05:36:38Z"
+			"revision": "02234c041f693ec39067f110661bb38680003a7c",
+			"revisionTime": "2018-09-28T08:16:35Z"
 		},
 		{
 			"checksumSHA1": "lpp6hBnX9xBhrnxXc0i/5fHHoWY=",
@@ -2422,10 +2422,10 @@
 			"revisionTime": "2018-03-15T11:09:47Z"
 		},
 		{
-			"checksumSHA1": "Y20gNFAdSahcMx1fuzZHc6jXG7U=",
+			"checksumSHA1": "lFfoFNfeKUZq6XMuZEEZ490gndU=",
 			"path": "github.com/huaweicloud/golangsdk/openstack/compute/v2/extensions/volumeattach",
-			"revision": "f08a3288280dde5efc7e934854f4f920c99a8534",
-			"revisionTime": "2018-09-17T05:36:38Z"
+			"revision": "02234c041f693ec39067f110661bb38680003a7c",
+			"revisionTime": "2018-09-28T08:16:35Z"
 		},
 		{
 			"checksumSHA1": "6cxgVwctlHbqIqO9rHVTwmDtxhk=",
