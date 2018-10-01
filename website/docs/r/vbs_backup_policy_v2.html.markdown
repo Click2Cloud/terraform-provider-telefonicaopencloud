@@ -1,19 +1,19 @@
 ---
-layout: "opentelekomcloud"
-page_title: "OpenTelekomCloud: opentelekomcloud_vbs_backup_policy_v2"
-sidebar_current: "docs-opentelekomcloud-resource-vbs-backup-policy-v2"
+layout: "telefonicaopencloud"
+page_title: "TelefonicaOpenCloud: telefonicaopencloud_vbs_backup_policy_v2"
+sidebar_current: "docs-telefonicaopencloud-resource-vbs-backup-policy-v2"
 description: |-
   Provides an VBS Backup Policy resource.
 ---
 
-# opentelekomcloud_vbs_backup_policy_v2
+# telefonicaopencloud_vbs_backup_policy_v2
 
 Provides an VBS Backup Policy resource.
 
 # Example Usage
 
  ```hcl
-resource "opentelekomcloud_vbs_backup_policy_v2" "vbs" {
+resource "telefonicaopencloud_vbs_backup_policy_v2" "vbs" {
   name = "policy_002"
   start_time  = "12:00"
   status  = "ON"
@@ -53,5 +53,5 @@ result attributes:
 Backup Policy can be imported using the `id`, e.g.
 
 ```
-$ terraform import opentelekomcloud_vbs_backup_policy_v2.vbs 4779ab1c-7c1a-44b1-a02e-93dfc361b32d
+$ terraform import telefonicaopencloud_vbs_backup_policy_v2.vbs 4779ab1c-7c1a-44b1-a02e-93dfc361b32d
 ```

@@ -1,12 +1,12 @@
 ---
-layout: "opentelekomcloud"
-page_title: "OpenTelekomCloud: opentelekomcloud_vbs_backup_policy_v2"
-sidebar_current: "docs-opentelekomcloud-datasource-vbs-backup-policy-v2"
+layout: "telefonicaopencloud"
+page_title: "TelefonicaOpenCloud: telefonicaopencloud_vbs_backup_policy_v2"
+sidebar_current: "docs-telefonicaopencloud-datasource-vbs-backup-policy-v2"
 description: |-
   Provides details about a specific VBS backup policy.
 ---
 
-# Data Source: opentelekomcloud_vbs_backup_policy_v2
+# Data Source: telefonicaopencloud_vbs_backup_policy_v2
 
 The VBS Backup Policy data source provides details about a specific VBS backup policy.
 
@@ -19,7 +19,7 @@ The VBS Backup Policy data source provides details about a specific VBS backup p
 
  variable "policy_id" { }
     
-data "opentelekomcloud_vbs_backup_policy_v2" "policies" {
+data "telefonicaopencloud_vbs_backup_policy_v2" "policies" {
   name = "${var.policy_name}"
   id = "${var.policy_id}"
 }
