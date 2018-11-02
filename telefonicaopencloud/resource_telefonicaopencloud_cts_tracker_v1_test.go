@@ -33,8 +33,6 @@ func TestAccCTSTrackerV1_basic(t *testing.T) {
 				Check: resource.ComposeTestCheckFunc(
 					testAccCheckCTSTrackerV1Exists("telefonicaopencloud_cts_tracker_v1.tracker_v1", &tracker),
 					resource.TestCheckResourceAttr(
-						"telefonicaopencloud_cts_tracker_v1.tracker_v1", "bucket_name", "tf-test-bucket1"),
-					resource.TestCheckResourceAttr(
 						"telefonicaopencloud_cts_tracker_v1.tracker_v1", "file_prefix_name", "yO8Q1"),
 				),
 			},
@@ -136,7 +134,7 @@ resource "telefonicaopencloud_cts_tracker_v1" "tracker_v1" {
 
 const testAccCTSTrackerV1_update = `
 resource "telefonicaopencloud_s3_bucket" "bucket" {
-  bucket = "tf-test-bucket1"
+  bucket = "tf-test-bucket"
   acl = "public-read"
   force_destroy = true
 }
@@ -152,7 +150,7 @@ resource "telefonicaopencloud_cts_tracker_v1" "tracker_v1" {
 
 const testAccCTSTrackerV1_timeout = `
 resource "telefonicaopencloud_s3_bucket" "bucket" {
-  bucket = "tf-test-bucket-1"
+  bucket = "tf-test-bucket"
   acl = "public-read"
   force_destroy = true
 }
