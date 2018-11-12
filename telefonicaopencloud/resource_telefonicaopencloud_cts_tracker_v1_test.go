@@ -121,11 +121,6 @@ resource "telefonicaopencloud_s3_bucket" "bucket" {
   force_destroy = true
 }
 
-resource "telefonicaopencloud_smn_topic_v2" "topic_1" {
-  name		  = "topic_check"
-  display_name    = "The display name of topic_check"
-}
-
 resource "telefonicaopencloud_cts_tracker_v1" "tracker_v1" {
   bucket_name      = "${telefonicaopencloud_s3_bucket.bucket.bucket}"
   file_prefix_name      = "yO8Q"
@@ -138,10 +133,7 @@ resource "telefonicaopencloud_s3_bucket" "bucket" {
   acl = "public-read"
   force_destroy = true
 }
-resource "telefonicaopencloud_smn_topic_v2" "topic_1" {
-  name		  = "topic_check1"
-  display_name    = "The display name of topic_check"
-}
+
 resource "telefonicaopencloud_cts_tracker_v1" "tracker_v1" {
   bucket_name      = "${telefonicaopencloud_s3_bucket.bucket.bucket}"
   file_prefix_name      = "yO8Q1"
@@ -153,11 +145,6 @@ resource "telefonicaopencloud_s3_bucket" "bucket" {
   bucket = "tf-test-bucket"
   acl = "public-read"
   force_destroy = true
-}
-
-resource "telefonicaopencloud_smn_topic_v2" "topic_1" {
-  name		  = "topic_check-1"
-  display_name    = "The display name of topic_check"
 }
 
 resource "telefonicaopencloud_cts_tracker_v1" "tracker_v1" {

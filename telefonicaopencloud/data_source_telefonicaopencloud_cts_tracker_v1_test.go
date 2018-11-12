@@ -46,10 +46,6 @@ resource "telefonicaopencloud_s3_bucket" "bucket" {
   acl			= "public-read"
   force_destroy = true
 }
-resource "telefonicaopencloud_smn_topic_v2" "topic_1" {
-  name			= "tf-test-topic"
-  display_name	= "The display name of tf-test-topic"
-}
 
 resource "telefonicaopencloud_cts_tracker_v1" "tracker_v1" {
   bucket_name		= "${telefonicaopencloud_s3_bucket.bucket.bucket}"
