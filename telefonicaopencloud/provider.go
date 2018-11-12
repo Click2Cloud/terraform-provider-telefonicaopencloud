@@ -183,7 +183,7 @@ func Provider() terraform.ResourceProvider {
 			"telefonicaopencloud_rts_stack_resource_v1":  dataSourceRTSStackResourcesV1(),
 			"telefonicaopencloud_rts_software_config_v1": dataSourceRtsSoftwareConfigV1(),
 			"telefonicaopencloud_sfs_file_system_v2":     dataSourceSFSFileSystemV2(),
-			"telefonicaopencloud_cts_tracker_v1":            dataSourceCTSTrackerV1(),
+			"telefonicaopencloud_cts_tracker_v1":         dataSourceCTSTrackerV1(),
 		},
 
 		ResourcesMap: map[string]*schema.Resource{
